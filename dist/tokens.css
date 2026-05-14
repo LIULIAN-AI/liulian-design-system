@@ -69,7 +69,36 @@
   --motion-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   --motion-ease-out-quart: cubic-bezier(0.16, 1, 0.3, 1);
   --motion-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
-  --motion-duration-fast: 200ms;
+  --motion-duration-instant: 80ms;
+  --motion-duration-fast: 180ms;
   --motion-duration-medium: 300ms;
   --motion-duration-slow: 600ms;
+  --control-height-sm: 32px;
+  /* Button/Input standard. Touch target padded to 44px on iOS, 48dp on Android via outer area. */
+  --control-height-md: 40px;
+  --control-height-lg: 48px;
+  --control-paddingx-sm: 16px;
+  --control-paddingx-md: 24px;
+  --control-paddingx-lg: 28px;
+  --control-iconsize-sm: 14px;
+  --control-iconsize-md: 16px;
+  --control-iconsize-lg: 18px;
+  --control-icongap: 8px;
+  /* Press-state scale (uniform; not just iOS, not just Android — LIULIAN's own). */
+  --control-scaleactive: 0.98;
+  --focus-ringwidth: 2px;
+  --focus-ringoffset: 2px;
+  --shadow-rest: none;
+  /* Card hover */
+  --shadow-raise: 0 2px 8px rgba(19,19,19,0.04);
+  /* Modal / floating panel */
+  --shadow-lift: 0 8px 24px rgba(19,19,19,0.06);
+  --opacity-disabled: 0.4;
+  --opacity-subtle: 0.65;
+  /* Apple HIG */
+  --touch-mintarget-ios: 44px;
+  /* Material Design */
+  --touch-mintarget-android: 48px;
+  /* HMS Design (Huawei) */
+  --touch-mintarget-harmony: 48px;
 }

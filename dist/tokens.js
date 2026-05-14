@@ -77,9 +77,31 @@ const tokens = {
   "motion.ease-out": "cubic-bezier(0.22, 1, 0.36, 1)",
   "motion.ease-out-quart": "cubic-bezier(0.16, 1, 0.3, 1)",
   "motion.ease-in-out": "cubic-bezier(0.65, 0, 0.35, 1)",
-  "motion.duration-fast": "200ms",
+  "motion.duration-instant": "80ms",
+  "motion.duration-fast": "180ms",
   "motion.duration-medium": "300ms",
-  "motion.duration-slow": "600ms"
+  "motion.duration-slow": "600ms",
+  "control.height.sm": "32px",
+  "control.height.md": "40px",
+  "control.height.lg": "48px",
+  "control.paddingX.sm": "16px",
+  "control.paddingX.md": "24px",
+  "control.paddingX.lg": "28px",
+  "control.iconSize.sm": "14px",
+  "control.iconSize.md": "16px",
+  "control.iconSize.lg": "18px",
+  "control.iconGap.DEFAULT": "8px",
+  "control.scaleActive.DEFAULT": "0.98",
+  "focus.ringWidth": "2px",
+  "focus.ringOffset": "2px",
+  "shadow.rest": "none",
+  "shadow.raise": "0 2px 8px rgba(19,19,19,0.04)",
+  "shadow.lift": "0 8px 24px rgba(19,19,19,0.06)",
+  "opacity.disabled": "0.4",
+  "opacity.subtle": "0.65",
+  "touch.minTarget-ios": "44px",
+  "touch.minTarget-android": "48px",
+  "touch.minTarget-harmony": "48px"
 };
 module.exports = tokens;
 module.exports.tokens = tokens;
